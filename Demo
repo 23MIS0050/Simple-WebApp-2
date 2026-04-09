@@ -1,0 +1,4 @@
+Delete deployment : kubectl delete deployment html-app
+Apply again : kubectl apply -f deployment.yaml
+Check pods : kubectl get pods
+Port Forwarding : kubectl port-forward service/html-service 9090:80
